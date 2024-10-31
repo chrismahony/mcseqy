@@ -1,8 +1,9 @@
 
+from setuptools import setup, find_packages
+
 setup(
     name='mcseqy',
     version='0.1',
-    packages=find_packages(),
     install_requires=[
         'scanpy>=1.7'
     ],
